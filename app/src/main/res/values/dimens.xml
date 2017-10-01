@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Team TextView dimensions.-->
+    <dimen name="layout_marginBottomTeam">8dp</dimen>
+    <dimen name="layout_marginTopTeam">16dp</dimen>
+    <dimen name="teamTextView_textSize">20sp</dimen>
+
+    <!--Zero TextView (Large) dimensions.-->
+    <dimen name="paddingBottomZeroL">12dp</dimen>
+    <dimen name="paddingTopZeroL">8dp</dimen>
+    <dimen name="zeroTextViewLarge_textSize">60sp</dimen>
+
+    <!--Goal Button dimensions.-->
+    <dimen name="layout_marginLeftGoal">24dp</dimen>
+    <dimen name="layout_marginRightGoal">24dp</dimen>
+    <dimen name="layout_marginTopGoal">12dp</dimen>
+    <dimen name="goalButton_textSize">30sp</dimen>
+
+    <!--Red Card Button dimensions.-->
+    <dimen name="layout_marginBottomRedCard">10dp</dimen>
+    <dimen name="layout_marginTopRedCard">10dp</dimen>
+    <dimen name="layout_marginRightRedCard">30dp</dimen>
+    <dimen name="redAndYellowCardButton_textSize">22sp</dimen>
+
+    <!--Yellow Card Button dimensions.-->
+    <dimen name="layout_marginBottomYellowCard">10dp</dimen>
+    <dimen name="layout_marginTopYellowCard">10dp</dimen>
+    <dimen name="paddingRightYellowCard">9dp</dimen>
+
+    <!--Foul Button dimensions.-->
+    <dimen name="layout_marginBottomFoul">10dp</dimen>
+    <dimen name="layout_marginTopFoul">10dp</dimen>
+    <dimen name="layout_marginRightFoul">55dp</dimen>
+    <dimen name="foulButton_textSize">25sp</dimen>
+
+    <!--Zero TextView (Small) dimensions.-->
+    <dimen name="layout_marginTopZeroS">15dp</dimen>
+    <dimen name="layout_marginLeftRedS">20dp</dimen>
+    <dimen name="layout_marginLeftFoulS">11dp</dimen>
+    <dimen name="zeroTextViewSmall_textSize">35sp</dimen>
+
+    <!--View dimension (line).-->
+    <dimen name="layout_marginTopView">16dp</dimen>
+</resources>

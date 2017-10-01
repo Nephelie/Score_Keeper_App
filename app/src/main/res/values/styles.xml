@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Reset Button Style.-->
+    <style name="ResetButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <!--Zero TextView (Small) Style.-->
+    <style name="zeroTextView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">@dimen/zeroTextViewSmall_textSize</item>
+    </style>
+
+    <!--Foul Button Style.-->
+    <style name="foulButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/foulButton_textSize</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <!--Red and Yellow Card Button Style.-->
+    <style name="CardButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/redAndYellowCardButton_textSize</item>
+        <item name="android:background">@null</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Goal Button Style.-->
+    <style name="GoalButton">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/goalButton_textSize</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <!--Zero TextView (Large) Style.-->
+    <style name="zeroTextViewLarge">
+        <item name="android:textSize">@dimen/zeroTextViewLarge_textSize</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!--Team TextView Style.-->
+    <style name="Team">
+        <item name="android:textSize">@dimen/teamTextView_textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <!--ImageView Style-->
+    <style name="ImageView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!--1st Child Layout Style-->
+    <style name="LinearLayout1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!--Nested Linear Layout Style-->
+    <style name="NestedLinearLayout">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!--View Style (line)-->
+    <style name="ViewStyle">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+</resources>

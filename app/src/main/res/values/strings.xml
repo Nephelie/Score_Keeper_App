@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Score Keeper</string>
+    <string name="Home">Home</string>
+    <string name="zero">0</string>
+    <string name="goal">goal</string>
+    <string name="red_card">red card</string>
+    <string name="yellow_card">yellow card</string>
+    <string name="foul">foul</string>
+    <string name="Guest">Guest</string>
+
+    <!--Reset Button.-->
+    <string name="reset">reset</string>
+
+    <!--Message as a Toast.-->
+    <string name="GOAAAAAAAALLLLLL">GOAAAAAAAALLLLLL !!!!!!!</string>
+
+    <!--Content Description.-->
+    <string name="football_field">football field</string>
+</resources>

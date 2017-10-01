@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:fillViewport="true"
+            tools:context="com.example.android.scorekeeperapp.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            style="@style/ImageView"
+            android:contentDescription="@string/football_field"
+            android:src="@drawable/thefootballfield"/>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      xmlns:tools="http://schemas.android.com/tools"
+                      style="@style/LinearLayout1">
+
+            <LinearLayout
+                style="@style/NestedLinearLayout"
+                tools:context="com.example.android.scorekeeperapp.MainActivity">
+
+                <TextView
+                    style="@style/Team"
+                    android:layout_marginBottom="@dimen/layout_marginBottomTeam"
+                    android:layout_marginTop="@dimen/layout_marginTopTeam"
+                    android:text="@string/Home"
+                    android:textColor="@color/colorText"/>
+
+                <TextView
+                    android:id="@+id/home_score"
+                    style="@style/zeroTextViewLarge"
+                    android:paddingBottom="@dimen/paddingBottomZeroL"
+                    android:paddingTop="@dimen/paddingTopZeroL"
+                    android:text="@string/zero"
+                    android:textColor="@color/colorText"/>
+
+                <Button
+                    style="@style/GoalButton"
+                    android:layout_marginLeft="@dimen/layout_marginLeftGoal"
+                    android:layout_marginRight="@dimen/layout_marginRightGoal"
+                    android:layout_marginTop="@dimen/layout_marginTopGoal"
+                    android:onClick="goal_home"
+                    android:text="@string/goal"
+                    android:textColor="@color/colorText"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/CardButton"
+                        android:layout_marginBottom="@dimen/layout_marginBottomRedCard"
+                        android:layout_marginRight="@dimen/layout_marginRightRedCard"
+                        android:layout_marginTop="@dimen/layout_marginTopRedCard"
+                        android:onClick="red_card_home"
+                        android:text="@string/red_card"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:id="@+id/red_Card_Home"
+                        style="@style/zeroTextView"
+                        android:layout_marginLeft="@dimen/layout_marginLeftRedS"
+                        android:layout_marginTop="@dimen/layout_marginTopZeroS"
+                        android:text="@string/zero"
+                        android:textColor="@color/colorText"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.59"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/CardButton"
+                        android:layout_marginBottom="@dimen/layout_marginBottomYellowCard"
+                        android:layout_marginTop="@dimen/layout_marginTopYellowCard"
+                        android:onClick="yellow_card_home"
+                        android:paddingRight="@dimen/paddingRightYellowCard"
+                        android:text="@string/yellow_card"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:id="@+id/yellow_Card_Home"
+                        style="@style/zeroTextView"
+                        android:layout_marginTop="@dimen/layout_marginTopZeroS"
+                        android:text="@string/zero"
+                        android:textColor="@color/colorText"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/foulButton"
+                        android:layout_marginBottom="@dimen/layout_marginBottomFoul"
+                        android:layout_marginRight="@dimen/layout_marginRightFoul"
+                        android:layout_marginTop="@dimen/layout_marginTopFoul"
+                        android:onClick="foul_home"
+                        android:text="@string/foul"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:id="@+id/foul_Home"
+                        style="@style/zeroTextView"
+                        android:layout_marginLeft="@dimen/layout_marginLeftFoulS"
+                        android:layout_marginTop="@dimen/layout_marginTopZeroS"
+                        android:text="@string/zero"
+                        android:textColor="@color/colorText"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                style="@style/ViewStyle"
+                android:layout_marginTop="@dimen/layout_marginTopView"
+                android:background="@color/colorText">
+
+            </View>
+
+            <LinearLayout
+                style="@style/NestedLinearLayout"
+                tools:context="com.example.android.scorekeeperapp.MainActivity">
+
+                <TextView
+                    style="@style/Team"
+                    android:layout_marginBottom="@dimen/layout_marginBottomTeam"
+                    android:layout_marginTop="@dimen/layout_marginTopTeam"
+                    android:text="@string/Guest"
+                    android:textColor="@color/colorText"/>
+
+                <TextView
+                    android:id="@+id/guest_score"
+                    style="@style/zeroTextViewLarge"
+                    android:paddingBottom="@dimen/paddingBottomZeroL"
+                    android:paddingTop="@dimen/paddingTopZeroL"
+                    android:text="@string/zero"
+                    android:textColor="@color/colorText"/>
+
+                <Button
+                    style="@style/GoalButton"
+                    android:layout_marginLeft="@dimen/layout_marginLeftGoal"
+                    android:layout_marginRight="@dimen/layout_marginRightGoal"
+                    android:layout_marginTop="@dimen/layout_marginTopGoal"
+                    android:onClick="goal_guest"
+                    android:text="@string/goal"
+                    android:textColor="@color/colorText"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/CardButton"
+                        android:layout_marginBottom="@dimen/layout_marginBottomRedCard"
+                        android:layout_marginRight="@dimen/layout_marginRightRedCard"
+                        android:layout_marginTop="@dimen/layout_marginTopRedCard"
+                        android:onClick="red_card_guest"
+                        android:text="@string/red_card"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:id="@+id/red_Card_Guest"
+                        style="@style/zeroTextView"
+                        android:layout_marginLeft="@dimen/layout_marginLeftRedS"
+                        android:layout_marginTop="@dimen/layout_marginTopZeroS"
+                        android:text="@string/zero"
+                        android:textColor="@color/colorText"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/CardButton"
+                        android:layout_marginBottom="@dimen/layout_marginBottomYellowCard"
+                        android:layout_marginTop="@dimen/layout_marginTopYellowCard"
+                        android:onClick="yellow_card_guest"
+                        android:paddingRight="@dimen/paddingRightYellowCard"
+                        android:text="@string/yellow_card"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:id="@+id/yellow_Card_Guest"
+                        style="@style/zeroTextView"
+                        android:layout_marginTop="@dimen/layout_marginTopZeroS"
+                        android:text="@string/zero"
+                        android:textColor="@color/colorText"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/foulButton"
+                        android:layout_marginBottom="@dimen/layout_marginBottomFoul"
+                        android:layout_marginRight="@dimen/layout_marginRightFoul"
+                        android:layout_marginTop="@dimen/layout_marginTopFoul"
+                        android:onClick="foul_guest"
+                        android:text="@string/foul"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:id="@+id/foul_Guest"
+                        style="@style/zeroTextView"
+                        android:layout_marginLeft="@dimen/layout_marginLeftFoulS"
+                        android:layout_marginTop="@dimen/layout_marginTopZeroS"
+                        android:text="@string/zero"
+                        android:textColor="@color/colorText"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            style="@style/ResetButton"
+            android:background="@drawable/button"
+            android:onClick="reset"
+            android:text="@string/reset"
+            android:textColor="@color/colorText"/>
+    </RelativeLayout>
+</ScrollView>
+
+
